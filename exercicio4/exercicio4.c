@@ -57,4 +57,6 @@ int main()
     {
         printf("Esse triangulo nao pode ser formado!");
     }
+
+    return 0;
 }

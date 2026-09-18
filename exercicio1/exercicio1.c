@@ -45,4 +45,6 @@ int main()
         printf("Informações inválidas");
         break;
     }
+
+    return 0;
 }

@@ -5,7 +5,8 @@ int calcular_potencial(int base, int expoente)
 {
     int potencia = base;
 
-    if(expoente == 0){
+    if (expoente == 0)
+    {
         return 1;
     }
 
@@ -29,4 +30,6 @@ int main()
     scanf("%d", &expoente);
 
     printf("O valor da potencia eh: %d", calcular_potencial(base, expoente));
+
+    return 0;
 }
